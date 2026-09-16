@@ -1,6 +1,11 @@
 # Metonic week grid (7/8 mix)
 
-A **fixed integer week length** cannot close one synodic month with four equal weeks ([impossibility.md](../00-method/impossibility.md)). A **two-valued** week (7 and 8 days) can close **two months**, then **235 months**, then **19 tropical years**, with whole days throughout.
+A **fixed integer week length** cannot close one synodic month with four equal weeks ([impossibility.md](../00-method/impossibility.md)). The strongest **integer-day** result here is the **59-day / two-month block** (below). Extending that pattern yields a **6940-day civil grid** that **approximates** the classical Metonic interval - it is **not** exact astronomical closure.
+
+> [!NOTE]
+> **What this is:** whole-day **7/8** weeks through **235 administrative months** (29/30 d), total **940 weeks = 6940 d**.
+>
+> **What this is not:** `235 mean synodic months = 6940 d` or `19 tropical years = 6940 d`. Means are ≈ **6939.5 d** ([constants.md](../00-method/constants.md)). The **580 / 360** split of 7- vs 8-day weeks is **forced** once you fix **940 weeks** and **6940 days** (since \(6580 + n = 6940 \Rightarrow n = 360\) eight-day weeks); astronomy does not uniquely demand those counts.
 
 ## 59 days ≈ two synodic months
 
@@ -29,20 +34,29 @@ vs forcing **7+7+7+8 = 29 d** every month alone: **−0.531 d/month** (~12.7 h) 
 flowchart LR
   block59[59d_8weeks] --> monA[MonthA_29d]
   block59 --> monB[MonthB_30d]
-  monA --> metonic[235_months_19y]
+  monA --> scaleUp[235_admin_months]
+  scaleUp --> grid6940[6940d_integer_grid]
 ```
 
-## 19-year closure (Metonic)
+## 19-year scale: integer grid vs astronomical means
 
-Standard Metonic: **19 tropical years ≈ 235 synodic months**.
+**Classical Metonic ratio:** 19 tropical years ≈ 235 mean synodic months (lunisolar alignment). In **day count** with Epact constants:
 
-Extend the 29/30 alternation across 235 months:
+| Quantity | Day count (d) |
+|----------|---------------|
+| 235 × 29.530588861 | **6939.468** |
+| 19 × 365.242190402 | **6939.602** |
+| Difference | **0.133 d ≈ 3.2 h** |
 
-- **110 months × 29 d** + **125 months × 30 d** = **6940 d**
-- Each month = **4 weeks** (only 7- and 8-day weeks)
-- **940 weeks** = **580×7 d** + **360×8 d** = **6940 d**
+That **~3.2 h** is how closely the two **mean** targets match each other - not the residual of the integer grid.
 
-Check:
+**Integer civil construction:** repeat 29/30 admin months for **235 months**:
+
+- **110 × 29 d** + **125 × 30 d** = **6940 d**
+- Each admin month = **4 weeks** (only 7- and 8-day weeks) → **940 weeks**
+- **580×7 d** + **360×8 d** = **6940 d**
+
+Residuals of **6940 d** vs astronomy:
 
 | Target | Value (d) | Residual vs 6940 d |
 |--------|-----------|---------------------|
@@ -51,13 +65,20 @@ Check:
 
 Lunar and solar residuals are **hours per 19 years**, not days per month. Optional: **one omitted/intercalary day every ~76 years** holds the solar side under ~0.6 d/century.
 
+```mermaid
+flowchart LR
+  astro["Means ~6939.5d"]
+  grid["Grid 6940d"]
+  astro -->|"~0.4-0.5d"| grid
+```
+
 ## Properties
 
 - Whole **mean solar days** only; weeks are 7 or 8 days.
-- **Every month** has exactly **four weeks** (no orphan epact day inside the 235-month core).
+- **Every admin month** has exactly **four weeks** (no orphan epact day inside the 235-month core).
 - **No fixed integer W**; period-2 month pattern (29/30) carries the epact.
 
-This is the strongest **integer-day lunisolar week** construction in Epact; system write-up: [mix.md](../04-systems/mix.md).
+This is the strongest **integer-day lunisolar week** construction in Epact under stated constraints; system write-up: [mix.md](../04-systems/mix.md).
 
 ## Comparison to single-W month
 

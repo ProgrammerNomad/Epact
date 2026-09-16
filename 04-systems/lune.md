@@ -20,7 +20,7 @@ flowchart TB
 
 ## Week structure
 
-Four phase weeks per month (exact in mean ratio):
+Four **mean** phase quarters sum to the mean synodic month by definition; actual phase-to-phase intervals vary (eccentricity). Structure:
 
 1. **New → First quarter**
 2. **First quarter → Full**

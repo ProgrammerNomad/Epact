@@ -139,7 +139,7 @@ Constants: synodic = 29.530589, spring–neap = 14.765294, tropical year = 365.2
 | \(D_{\mathrm{norm}}\) | \(4.5/6\) | 0.750 |
 | **Score_int** | | **0.702** |
 
-**Reading:** **6** leads Score_int (0.729), then **7** (0.723), then **5** (0.715). **7** wins **Q_prox** and **S**; **6** wins **Y** among {6,7,8}. Rankings swap if lunar vs solar weights change - not a unique “correct” week.
+**Reading:** Under **Score_int** (weights above), **W=6** obtains the highest score among tested integers W=1…30 (0.729), then **7** (0.723), then **5** (0.715). **7** has the highest **Q_prox** and **S**; **6** has the highest **Y** among {6,7,8}. Rankings swap if weights change - not a unique “correct” week.
 
 ## Non-integer reference week
 

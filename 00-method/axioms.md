@@ -8,6 +8,16 @@ There is no single mathematically correct week length. **Correct** means: given 
 
 We treat a calendar as a **model** of nature, not nature itself. Every model leaves a **remainder** (epact).
 
+## Three questions (keep separate)
+
+| Question | Example answer in Epact | Mathematical uniqueness? |
+|----------|-------------------------|---------------------------|
+| **A - Nature** | Mean lunar quarter ≈ **7.382647 d** ([constants.md](constants.md)) | One mean ratio; not an integer week |
+| **B - Integer engineering** | W=6 highest **Score_int**; 59 d / 6940 d **7/8** grids ([03-search/](../03-search/)) | Depends on weights and constraints |
+| **C - Civil adoption** | Global 7-day week, ISO, law ([why-seven.md](../05-synthesis/why-seven.md)) | **No** unique math answer; coordination and history |
+
+Do not infer **C** from **A** or **B**, or **B** from **A** alone.
+
 ## Constraints we refuse to drop (for the main search)
 
 These are the requirements that fight each other:

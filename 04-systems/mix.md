@@ -49,13 +49,13 @@ Each **59-day block** = **two months**, four weeks each:
 
 Pair vs 2× synodic: **−0.061 d** per two months (~1.47 h), not −0.531 d every single month.
 
-Over **235 months** (Metonic): 110×29 + 125×30 = **6940 d** = 940 weeks (580×7 + 360×8). Details: [metonic-week-grid.md](../03-search/metonic-week-grid.md).
+Over **235 admin months** (29/30 d bookkeeping): 110×29 + 125×30 = **6940 d** = 940 weeks (580×7 + 360×8). This **integer grid** approximates the Metonic interval in mean days (≈6939.5 d), not exact 235 mean synodic months. Details: [metonic-week-grid.md](../03-search/metonic-week-grid.md).
 
 ## Intercalation
 
 | Layer | Rule |
 |-------|------|
-| Month–year | 7 leap months / 19 years (Metonic); lunar residual ~12.8 h / 19 y on 6940-d grid |
+| Month–year | 7 leap months / 19 years (Metonic ratio); +12.8 h vs 235 mean mo on 6940-d grid |
 | Week–month | **No epact day inside** 235-month core; 29/30 alternation absorbs error |
 | Year–day | Optional **1 day / ~76 y** (or leap-day policy) for ~9.6 h solar residual / 19 y |
 

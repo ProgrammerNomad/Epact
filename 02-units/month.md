@@ -33,7 +33,7 @@ Mixed 7/8 blocks reduce mean week toward 7.382647; see [mixed-weeks.md](../03-se
 
 ## Relation to Metonic cycle
 
-Tropical year / synodic month ≈ 12.368266. Convergent **19 years : 235 months** is the standard high-quality lunisolar fit (~2 h error over 19 y). Month–year epact is **small** at 19-year scale; week–month epact remains **large** unless mixed weeks or leap weeks are used.
+Tropical year / synodic month ≈ 12.368266. Convergent **19 years : 235 months** is the standard high-quality lunisolar fit. With [constants.md](../00-method/constants.md) means, **235 × synodic** and **19 × tropical** day-counts differ by **≈ 0.133 d (~3.2 h)** - close ratio, not exact days. The **6940 d** integer week grid is a separate civil approximation ([metonic-week-grid.md](../03-search/metonic-week-grid.md)). Week–month epact remains **large** unless mixed weeks or leap weeks are used.
 
 ## Month naming without history
 

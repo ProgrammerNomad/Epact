@@ -49,7 +49,7 @@ Uses **round**(365.242 / W) weeks per year (same as \(Y(W)\) in [scoring.md](../
 
 Ratio tropical year / synodic month = 12.368266…
 
-Convergent **19 years = 235 months**; error ~2 h over 19 y. Lunisolar calendars insert **7 leap months per 19 years**.
+Convergent **19 years ≈ 235 mean synodic months**; day-count mismatch **≈ 3.2 h** between 235×synodic and 19×tropical with stated means ([constants.md](../00-method/constants.md)). Lunisolar calendars insert **7 leap months per 19 years**.
 
 This does **not** resolve week–month epact. Metonic fixes **year ↔ month**; Epact project week layer is orthogonal.
 

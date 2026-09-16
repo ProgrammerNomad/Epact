@@ -1,6 +1,6 @@
 # System: Hex
 
-**Idea:** Choose **W = 6** - the default **Score_int** and **Score_ref** leader in [integer-weeks.md](../03-search/integer-weeks.md) - as a full civil calendar, not only a search-table row.
+**Idea:** Choose **W = 6** - under **Score_int** and **Score_ref** in [integer-weeks.md](../03-search/integer-weeks.md), the highest-scoring integer among W=1…30 - as a full civil calendar, not only a search-table row.
 
 ## Units
 
@@ -45,8 +45,8 @@ From [scoring.md](../00-method/scoring.md) / [integer-weeks.md](../03-search/int
 | S | 0.539 | Weak spring–neap alignment |
 | Y | **0.874** | Strong tropical-year fraction vs W=7 (0.823) |
 | D_norm | **0.833** | 6 = 2×3; better shift splits than prime 7 (0.333) |
-| **Score_int** | **0.729** | Leader by 0.006 over W=7 |
-| **Score_ref** | **0.828** | Leader by wider margin |
+| **Score_int** | **0.729** | Highest among W=1…30; +0.006 over W=7 |
+| **Score_ref** | **0.828** | Highest among W=1…30 in that composite |
 
 Hex is **not** a lunar-first system despite decent **M**; weak **S** and no phase grid. See [weight-sensitivity.md](../03-search/weight-sensitivity.md).
 

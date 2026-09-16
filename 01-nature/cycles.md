@@ -27,7 +27,7 @@ The Moon is not one period. It is several, all near ~27–30 days:
 
 **Week-relevant derived intervals:**
 
-- **Quarter phase:** synodic / 4 = **7.382647 d** (exact in mean ratio).
+- **Quarter phase:** synodic / 4 = **7.382647 d** (exact for **mean** synodic month; individual quarters vary).
 - **Half month (spring–neap):** synodic / 2 = **14.765294 d**.
 - **Fortnight:** colloquially the same half-month; tidal springs every ~14.77 d.
 
@@ -68,7 +68,7 @@ Seasons come from **obliquity** (axial tilt ~23.44°) and **elliptical orbit** (
 
 | Cycle | Period | Calendar relevance |
 |-------|--------|-------------------|
-| Metonic | 19 y ≈ 235 lunations | Best famous month–year rational fit. |
+| Metonic | 19 y ≈ 235 lunations | Best famous month–year rational fit; mean day-counts differ by ~3.2 h (see [metonic-week-grid.md](../03-search/metonic-week-grid.md)). |
 | Saros | ~223 synodic months ≈ 18 y | Eclipses; not week structure. |
 | Lunar node (nutation) | 18.61 y | Tidal range modulation. |
 

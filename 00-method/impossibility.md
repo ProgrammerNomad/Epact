@@ -87,7 +87,7 @@ Design work is honest when it:
 ## What remains possible
 
 - **No fixed integer W** closes one synodic month with four equal weeks.
-- **Two-valued** 7/8 weeks close **two months** (59 d ≈ 2 lunations) and, at Metonic scale, **19 years = 235 months = 940 weeks = 6940 days** with every month exactly four weeks ([metonic-week-grid.md](../03-search/metonic-week-grid.md)).
+- **Two-valued** 7/8 weeks close a **59 d ≈ 2-lunation** pair and, at Metonic scale, an **integer 6940-day grid** (940 weeks, 235 admin months) that **approximates** 19 tropical years and 235 mean synodic months - not exact day equality ([metonic-week-grid.md](../03-search/metonic-week-grid.md)).
 - **Single-W** integers remain compromises on [Score_int](../03-search/integer-weeks.md).
 - **Dual overlays** - civil integer week + phase calendar that does not nest.
 

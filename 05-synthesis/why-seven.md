@@ -54,9 +54,9 @@ Three stacked choices, then diffusion:
 
 ## What Epact adds
 
-Humans picked **one** integer (7) and forced months and years around it. A stronger integer construction in this repo is **not** “always 7”: it is **7 and 8 mixed**, 29/30-day months, and the Metonic **6940-day** grid ([metonic-week-grid.md](../03-search/metonic-week-grid.md)).
+Humans picked **one** integer (7) and forced months and years around it. A stronger integer construction in this repo is **not** “always 7”: it is **7 and 8 mixed**, 29/30-day admin months, and an **integer 6940-day civil grid** approximating the Metonic interval ([metonic-week-grid.md](../03-search/metonic-week-grid.md)).
 
-**Short version:** Nature almost chose **7.38 d**. Some places rounded to **7** or **8**. Others used **4, 5, 6, 8, 10, 13, 20** for year, market, rest, or ritual. The planet looks like 7 because that **package was copied onto** the others.
+**Short version:** The mean lunar quarter is **~7.38 d**. Some cultures used **~7** or **8** day rhythms; others used **4, 5, 6, 8, 10, 13, 20** for year, market, rest, or ritual - not because they all computed 29.53/4. Global 7-day dominance reflects **historical diffusion, institutional adoption, and coordination costs**, not astronomical optimality.
 
 ## See also
 

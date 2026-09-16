@@ -28,7 +28,7 @@ Convergents \(p_k/q_k\) approximate \(Q\) as rationals. Interpret \(q_k\) as **n
 | 37/5 | 5 | 37 | 3×7 + 2×8 | 7.400000 | +0.017353 |
 | 59/8 | 8 | 59 | 5×7 + 3×8 | 7.375000 | −0.007647 |
 
-The **59-day / 8-week** pattern is the best low-complexity mean among these three.
+The **59-day / 8-week** pattern is the best low-complexity mean **among the three convergent rows in this table**.
 
 ```mermaid
 flowchart LR
@@ -73,9 +73,9 @@ Split one 8-week block into **two months** (four weeks each):
 
 Paired error vs two lunations: **0.061 d** (~1.47 h) per 59 d, vs **0.531 d/month** if every month uses 7+7+7+8 alone.
 
-Full **19 y / 235 month / 940 week** closure: [metonic-week-grid.md](metonic-week-grid.md).
+Scaled **6940 d** integer grid (940 weeks, 235 admin months): [metonic-week-grid.md](metonic-week-grid.md).
 
-Mean week over 8 weeks = **7.375 d**; drift vs quarter ≈ **11 min/week** before month pairing.
+Mean week over 8 weeks = **7.375 d**; drift vs **mean** quarter ≈ **11 min/week** before month pairing. That targets **mean lunar quarter length**, not individual observed phase instants; aligning civil week ends to real phases still needs **phase reset** policy (below).
 
 ## Drift without anchors
 
@@ -91,7 +91,7 @@ Better than four×7 ( −1.53 d ) but still requires **phase reset** at astronom
 
 1. Repeating **59-day / 8-week** pattern (5×7 + 3×8).
 2. **Month A / B** = 29 d and 30 d (four weeks each) inside each block.
-3. **Metonic** scale: 110×29 + 125×30 months over 19 years ([metonic-week-grid.md](metonic-week-grid.md)).
+3. **Metonic-scale** integer grid: 110×29 + 125×30 admin months ([metonic-week-grid.md](metonic-week-grid.md)).
 4. Rest: final day of each 7- or 8-day week ([rest.md](../02-units/rest.md)).
 
 See [mix.md](../04-systems/mix.md).

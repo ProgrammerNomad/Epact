@@ -42,7 +42,7 @@ Legend: ++ strong, + acceptable, ~ weak, − poor, n/a not targeted.
 
 From [integer-weeks.md](../03-search/integer-weeks.md) **Score_int**:
 
-1. **W=6** (0.729) - [Hex](../04-systems/hex.md); strong M, Q, **Y (0.874)**, D; weak S
+1. **W=6** (0.729) - highest Score_int; [Hex](../04-systems/hex.md); strong M, Q, **Y (0.874)**, D; weak S
 2. **W=7** (0.723) - Dual civil layer; best Q_prox
 3. **W=5** (0.715) - Solar5
 4. **W=8** (0.702) - Binary
@@ -54,22 +54,22 @@ Gap 6 vs 7 is **0.006**; see [weight-sensitivity.md](../03-search/weight-sensiti
 Designs **not dominated** on (quarter error, year error, divisibility):
 
 - **Lune** - minimizes quarter/month error; sacrifices clock lock (mode A).
-- **Mix** - best **integer lunisolar week grid** here (7/8, 29/30 months, Metonic 6940 d); see [metonic-week-grid.md](../03-search/metonic-week-grid.md).
+- **Mix** - strongest **integer-day lunisolar week grid** under Epact constraints (7/8, 29/30 admin months, 6940 d approximation); see [metonic-week-grid.md](../03-search/metonic-week-grid.md).
 - **Binary** - maximizes \(2^n\) scheduling; sacrifices Moon.
 - **Solar5** - minimizes week–year fraction; sacrifices Moon.
 - **Dual** - minimizes **conflict** by splitting objectives; pays dual-label complexity.
-- **Hex** - best **Score_int** integer W=6; **Y** and **D_norm**; leap-week year; weak tides/phases.
+- **Hex** - highest **Score_int** under default weights (W=6); strong **Y** and **D_norm**; leap-week year; weak tides/phases.
 
 Choosing one is choosing **which epact you carry**.
 
-Past civil weeks (4, 5, 8, 10, 13, 20 days) sit on the **same Pareto surface**: different targets, not one true length. Today’s global 7 is mostly **diffusion**, not independent rediscovery - [why-seven.md](why-seven.md).
+Past civil weeks (4, 5, 8, 10, 13, 20 days) sit on the **same Pareto surface**: different targets, not one true length. Global 7-day use reflects **diffusion and coordination**, not independent rediscovery of one optimum - [why-seven.md](why-seven.md).
 
 ## Residual summary (order of magnitude)
 
 | System | Dominant residual | Typical correction |
 |--------|-------------------|-------------------|
 | Lune | Sub-day phase vs midnight | Instant vs snap policy |
-| Mix | ~12 h / 19 y on 6940-d grid | Metonic; optional 1 d / 76 y solar |
+| Mix | +12.8 h vs 235 mean mo; +9.6 h vs 19 tropical y on 6940-d grid | Integer grid, not exact Metonic days; optional 1 d / 76 y solar |
 | Binary | 5.24 d/year vs 360 | Epact block + leap |
 | Solar5 | 0.24 d/year vs 365 | Leap day |
 | Dual | Civil 1.24 d/year (364) | Epact day; lunar Metonic |

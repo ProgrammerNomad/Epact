@@ -59,6 +59,8 @@ Adding \(0.10\,C(W)\) with \(C=1\) for every integer **does not change rank**; i
 
 ## Leaders (Score_int)
 
+Under **Score_int** ([scoring.md](../00-method/scoring.md) weights), **W=6** has the highest score among W=1…30 in this table:
+
 | Rank | W | Score_int | Strength | Weakness |
 |------|---|-----------|----------|----------|
 | 1 | **6** | 0.729 | Strong M, Q, Y, D | Weak spring–neap (S=0.539) |

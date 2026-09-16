@@ -1,13 +1,13 @@
 # Epact
 
-**Epact** asks one question: **how many days should a week have?** Candidates include 5, 6, 7, 8, a mix of 7- and 8-day weeks, a phase-tied quarter of about 7.38 days, or no named week at all. The evidence is astronomy, tides, and biology - not calendar history.
+**Epact** asks one question: **how many days should a week have?** Candidates include 5, 6, 7, 8, a mix of 7- and 8-day weeks, a phase-tied quarter of about 7.38 days, or no named week at all. Primary evidence is **astronomy, tides, and number theory**; [biology](01-nature/biology.md) is a **separate layer** (not proof of week length). Calendar history is description, not proof - see [axioms](00-method/axioms.md).
 
 > [!IMPORTANT]
 > A mean **lunar quarter** is **7.382647…** solar days. That is not an integer, so any whole-day week is an approximation. **Epact** is the name we use for the leftover when a week grid and the Moon (or the year) do not line up.
 
 ## Rules of the project
 
-- **Evidence:** astronomy, tides, biology, number theory.
+- **Evidence:** astronomy, tides, number theory; biology optional context ([biology.md](01-nature/biology.md)).
 - **Not evidence:** "we have always used seven days."
 - **Why 7 became global (description):** [05-synthesis/why-seven.md](05-synthesis/why-seven.md) - diffusion and lock-in, not proof that 7 is correct.
 - **Outcome:** scored options (W = 1…30), the **Metonic 7/8 week grid**, and six example calendars.

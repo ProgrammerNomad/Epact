@@ -16,7 +16,7 @@ Lune mode A vs B ([lune.md](../04-systems/lune.md)): astronomy vs appointments. 
 
 ## 3. Is W=6 a missing sixth system?
 
-**Resolved:** [hex.md](../04-systems/hex.md) documents W=6 (Score_int leader; **Y** stronger than 7; weak **S**). Still not a unique optimum - see [weight-sensitivity.md](../03-search/weight-sensitivity.md).
+**Resolved:** [hex.md](../04-systems/hex.md) documents W=6 (highest Score_int among W=1…30; **Y** stronger than 7; weak **S**). Still not a unique optimum - see [weight-sensitivity.md](../03-search/weight-sensitivity.md).
 
 ## 4. Rest fraction as law
 
@@ -44,7 +44,7 @@ Mean synodic month and tropical year **change** over millennia (tidal accelerati
 
 ## 10. Three-cycle continued fractions
 
-**Answered (integer 7/8 weeks):** 19 y = 235 mo = 940 wk = 6940 d with 580×7 + 360×8 and 110×29 + 125×30 month lengths - see [metonic-week-grid.md](../03-search/metonic-week-grid.md). Still **no fixed single W**; period-2 week values required.
+**Answered (integer 7/8 weeks):** 59 d two-month block; scaled **6940 d** grid (940 wk = 580×7 + 360×8; 110×29 + 125×30 admin months) approximating the Metonic interval - see [metonic-week-grid.md](../03-search/metonic-week-grid.md). Still **no fixed single W**; period-2 week values required.
 
 ## 11. Circaseptan biology
 

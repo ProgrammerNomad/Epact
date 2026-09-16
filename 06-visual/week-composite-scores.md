@@ -25,7 +25,7 @@ xychart
 ## ASCII leaderboard
 
 ```
-W=6  ████████████████████ 0.729  ← Score_int leader
+W=6  ████████████████████ 0.729  ← highest Score_int W1-30
 W=7  ███████████████████▊ 0.723  ← best quarter proximity
 W=5  ███████████████████▌ 0.715  ← strong Y
 W=8  ███████████████████  0.702  ← binary scheduling
