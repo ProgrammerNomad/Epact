@@ -12,7 +12,7 @@ The **day** is the atomic unit of civil scheduling. Every other unit is a counte
 | **Tidal (lunar) day** | 1.03505 solar d | Coastal rhythm. | Latitude/coast dependent; drifts vs clocks. |
 | **Light day** | 0–24 h by season/latitude | Ecological daylight. | Fails at poles; not portable. |
 
-**Epact default:** **mean solar day** for all five systems in `04-systems/`.
+**Epact default:** **mean solar day** for all six systems in `04-systems/`.
 
 ## Sub-day structure (informative, not week drivers)
 
@@ -29,3 +29,7 @@ If “day” means **sun above horizon**, winter contains **zero** such days ins
 2. Are **leap seconds** ignored (POSIX style) or applied (rare discontinuity)?
 
 Epact assumes **smooth mean solar days**; leap-second policy is out of scope but acknowledged as tiny epact on the rotation scale.
+
+## Historical day divisions (description)
+
+Cultures chose **when the day starts** (Babylonian sunset, Egyptian sunrise, modern civil midnight) and **how to subdivide** it - Roman **seasonally unequal hours**, French Republican **decimal day** (10 h × 100 min × 100 s). That is the same kind of **lock-in** as the global 7-day week: coordination and reform, not proof of one natural subdivision. See [sources.md](../00-method/sources.md).

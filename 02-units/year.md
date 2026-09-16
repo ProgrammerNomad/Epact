@@ -49,3 +49,7 @@ Year epact can be absorbed by:
 - **unassigned epact days** (see [intercalation.md](../03-search/intercalation.md)).
 
 Each candidate system chooses one primary mechanism.
+
+## Historical year length and epoch
+
+**Pure lunar years** (e.g. Hijri, ~354.37 d) ignore tropical seasons by design. **Lunisolar** calendars (Hebrew, Chinese) use **leap months** on Metonic-family cycles - same structural idea as [Lune](../04-systems/lune.md) and [Mix](../04-systems/mix.md). **New-year epoch** (Nowruz, Chinese New Year, Gregorian 1 January) is arbitrary for astronomy; global use of 1 Jan is **convention**, not physics. See [sources.md](../00-method/sources.md).

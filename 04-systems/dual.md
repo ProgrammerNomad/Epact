@@ -23,6 +23,8 @@ Purpose: appointments, contracts, trains, payroll.
 
 Purpose: tides, ecology, night sky, optional rest at full moon.
 
+Java/Bali-style **overlapping** 3-, 5-, and 7-day counts are a historical analogue: several rhythms at once, not one nested week ([why-seven.md](../05-synthesis/why-seven.md)).
+
 ```mermaid
 flowchart TB
   subgraph civil [Layer_A_civil]

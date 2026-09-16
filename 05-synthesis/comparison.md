@@ -10,39 +10,39 @@ No single system wins all criteria.
 ```mermaid
 xychart
     title "Lunar fidelity 0-3 by system"
-    x-axis ["Lune", "Mix", "Dual", "Binary", "Solar5"]
+    x-axis ["Lune", "Mix", "Dual", "Hex", "Binary", "Solar5"]
     y-axis "Score" 0 --> 3
-    bar [3, 2, 3, 0, 0]
+    bar [3, 2, 3, 1, 0, 0]
 ```
 
 ```mermaid
 xychart
     title "Circadian lock 0-3 by system"
-    x-axis ["Lune", "Mix", "Dual", "Binary", "Solar5"]
+    x-axis ["Lune", "Mix", "Dual", "Hex", "Binary", "Solar5"]
     y-axis "Score" 0 --> 3
-    bar [1, 3, 3, 3, 3]
+    bar [1, 3, 3, 3, 3, 3]
 ```
 
-This table compares the five designs in [04-systems/](../04-systems/) on **orthogonal goals**.
+This table compares the six designs in [04-systems/](../04-systems/) on **orthogonal goals**.
 
 Legend: ++ strong, + acceptable, ~ weak, − poor, n/a not targeted.
 
-| Criterion | Lune | Mix | Binary | Solar5 | Dual |
-|-----------|------|-----|--------|--------|------|
-| Lunar quarter fidelity | ++ | + | − | − | ++ (layer B) |
-| Synodic month closure | ++ | + | − | − | ++ (layer B) |
-| Tropical year closure | + (Metonic) | + | + (epact) | ++ | + (civil) |
-| Circadian / integer lock | ~ (A) / + (snap) | ++ | ++ | ++ | ++ (civil) |
-| Scheduling divisibility | ~ | + | ++ | ~ | + (civil) |
-| Cognitive simplicity | + | ~ | + | + | − |
-| Tidal usefulness | ++ | + | n/a | n/a | ++ |
-| Honest about epact | ++ | ++ | ++ | ++ | ++ |
+| Criterion | Lune | Mix | Binary | Solar5 | Dual | Hex |
+|-----------|------|-----|--------|--------|------|-----|
+| Lunar quarter fidelity | ++ | + | − | − | ++ (layer B) | ~ |
+| Synodic month closure | ++ | + | − | − | ++ (layer B) | − |
+| Tropical year closure | + (Metonic) | + | + (epact) | ++ | + (civil) | + (leap week) |
+| Circadian / integer lock | ~ (A) / + (snap) | ++ | ++ | ++ | ++ (civil) | ++ |
+| Scheduling divisibility | ~ | + | ++ | ~ | + (civil) | ++ |
+| Cognitive simplicity | + | ~ | + | + | − | ~ |
+| Tidal usefulness | ++ | + | n/a | n/a | ++ | ~ |
+| Honest about epact | ++ | ++ | ++ | ++ | ++ | ++ |
 
 ## Integer week leaderboard (search only)
 
 From [integer-weeks.md](../03-search/integer-weeks.md) **Score_int**:
 
-1. **W=6** (0.729) - strong M, Q, **Y (0.874)**, D; weak S
+1. **W=6** (0.729) - [Hex](../04-systems/hex.md); strong M, Q, **Y (0.874)**, D; weak S
 2. **W=7** (0.723) - Dual civil layer; best Q_prox
 3. **W=5** (0.715) - Solar5
 4. **W=8** (0.702) - Binary
@@ -58,8 +58,11 @@ Designs **not dominated** on (quarter error, year error, divisibility):
 - **Binary** - maximizes \(2^n\) scheduling; sacrifices Moon.
 - **Solar5** - minimizes week–year fraction; sacrifices Moon.
 - **Dual** - minimizes **conflict** by splitting objectives; pays dual-label complexity.
+- **Hex** - best **Score_int** integer W=6; **Y** and **D_norm**; leap-week year; weak tides/phases.
 
 Choosing one is choosing **which epact you carry**.
+
+Past civil weeks (4, 5, 8, 10, 13, 20 days) sit on the **same Pareto surface**: different targets, not one true length. Today’s global 7 is mostly **diffusion**, not independent rediscovery - [why-seven.md](why-seven.md).
 
 ## Residual summary (order of magnitude)
 
@@ -70,6 +73,7 @@ Choosing one is choosing **which epact you carry**.
 | Binary | 5.24 d/year vs 360 | Epact block + leap |
 | Solar5 | 0.24 d/year vs 365 | Leap day |
 | Dual | Civil 1.24 d/year (364) | Epact day; lunar Metonic |
+| Hex | ~0.76 d long in 61-wk years | Leap week / 8-year wheel |
 
 ## Failure mode matrix
 
@@ -89,6 +93,6 @@ Epact **does not crown a winner**. It documents that:
 2. Integer **6, 7, 8** are **compromises** on a scored front, not truths.
 3. **Mixed weeks** and **dual overlays** are logically superior to pretending one integer fits all cycles.
 
-Pick **Lune** or **Dual** if phases matter; **Mix** if integers are mandatory; **Solar5** or **Binary** if the Sun (or binary logistics) dominates.
+Pick **Lune** or **Dual** if phases matter; **Mix** if integers are mandatory; **Solar5** or **Binary** if the Sun (or binary logistics) dominates; **Hex** if W=6, year fit, and shift splits beat lunar fidelity.
 
 See [open-questions.md](open-questions.md) for unresolved choices.

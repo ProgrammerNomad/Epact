@@ -2,6 +2,10 @@
 
 Items that **logic and nature underdetermine** - no unique answer without human values.
 
+## Closed (historical, not proof)
+
+**Did every civilization independently choose 7?** **No.** Many used other lengths; global sameness is largely **lock-in** (copying the 7-day package), while lunar quarters can independently suggest ~7 or ~8. Description only - [why-seven.md](why-seven.md).
+
 ## 1. Which “month” is canonical?
 
 Synodic (visible), tropical (ecliptic), or twelfth of tropical year? Epact defaults synodic for Moon-facing systems, but **coastal tides** in diurnal regimes weight **declination** (~13.66 d half-cycle) differently.
@@ -12,7 +16,7 @@ Lune mode A vs B ([lune.md](../04-systems/lune.md)): astronomy vs appointments. 
 
 ## 3. Is W=6 a missing sixth system?
 
-**Score_int** ranks W=6 first (barely above 7). A separate **Hex** file is optional pedagogy, not a logical gap - see [weight-sensitivity.md](../03-search/weight-sensitivity.md). W=6 has **better Y than 7** but weak spring–neap (S).
+**Resolved:** [hex.md](../04-systems/hex.md) documents W=6 (Score_int leader; **Y** stronger than 7; weak **S**). Still not a unique optimum - see [weight-sensitivity.md](../03-search/weight-sensitivity.md).
 
 ## 4. Rest fraction as law
 

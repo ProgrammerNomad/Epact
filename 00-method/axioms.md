@@ -39,6 +39,8 @@ Default score weights encode **“if weeks should track the Moon”** - not a cl
 
 History may appear only to **reject** it: e.g. “We do not infer natural week length from the spread of the seven-day week.”
 
+Other civilizations used **different week lengths** (4, 5, 6, 8, 10, 13, 20) for year, market, rest, or ritual - the same knobs Epact separates. That is **description of lock-in**, not proof that 7 is optimal. See [why-seven.md](../05-synthesis/why-seven.md).
+
 ## Design stance
 
 - Prefer **Pareto optimality** over a single champion.
@@ -49,5 +51,5 @@ History may appear only to **reject** it: e.g. “We do not infer natural week l
 
 1. A catalog of natural cycles ([01-nature/cycles.md](../01-nature/cycles.md)).
 2. Explicit scoring ([scoring.md](scoring.md)) and searches ([03-search/](../03-search/)).
-3. Five **complete** candidate systems ([04-systems/](../04-systems/)).
+3. Six **complete** candidate systems ([04-systems/](../04-systems/)).
 4. A comparison on the Pareto front ([05-synthesis/comparison.md](../05-synthesis/comparison.md)).

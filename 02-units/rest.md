@@ -15,6 +15,8 @@ Example: **6 work + 1 rest** inside a **7-day week** gives rest fraction \(1/7\)
 - Ultradian → **within-night** structure.
 - No robust law → “exactly one rest day every 7 civil days” is a **policy**, not a theorem.
 
+The Soviet **continuous work week** (1929–1940) used **5-** then **6-day** cycles for factory rest - rest density chosen for shifts, not lunar quarters. Same separation of rest from “natural week length” ([why-seven.md](../05-synthesis/why-seven.md)).
+
 ## Rest without a week
 
 Alternative: count **every Nth day** as rest (e.g. every 5th day) without grouping days into named weeks. Month and year still exist; only the **intermediate bundle** vanishes.

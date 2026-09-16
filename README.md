@@ -9,7 +9,8 @@
 
 - **Evidence:** astronomy, tides, biology, number theory.
 - **Not evidence:** "we have always used seven days."
-- **Outcome:** scored options (W = 1…30), the **Metonic 7/8 week grid**, and five example calendars.
+- **Why 7 became global (description):** [05-synthesis/why-seven.md](05-synthesis/why-seven.md) - diffusion and lock-in, not proof that 7 is correct.
+- **Outcome:** scored options (W = 1…30), the **Metonic 7/8 week grid**, and six example calendars.
 
 Key result: [03-search/metonic-week-grid.md](03-search/metonic-week-grid.md)
 
@@ -30,15 +31,15 @@ flowchart LR
 | Path | Contents |
 |------|----------|
 | [glossary.md](glossary.md) | Terms |
-| [00-method/](00-method/) | Axioms, constants, impossibility, scoring |
+| [00-method/](00-method/) | Axioms, constants, scoring, [sources](00-method/sources.md) |
 | [01-nature/](01-nature/) | Cycles and biology |
 | [02-units/](02-units/) | Day, rest, week, month, year as separate choices |
 | [03-search/](03-search/) | Week scores, 7/8 mix, Metonic grid, intercalation |
-| [04-systems/](04-systems/) | Lune, Mix, Binary, Solar5, Dual |
-| [05-synthesis/](05-synthesis/) | Comparison and open questions |
+| [04-systems/](04-systems/) | Lune, Mix, Binary, Solar5, Dual, Hex |
+| [05-synthesis/](05-synthesis/) | Comparison, [why seven](05-synthesis/why-seven.md), open questions |
 | [06-visual/](06-visual/) | Charts for the week search |
 
-**Quick visuals:** [month closure](06-visual/month-closure.md) · [pick a system](06-visual/choose-a-system.md)
+**Quick visuals:** [month closure](06-visual/month-closure.md) · [pick a system](06-visual/choose-a-system.md) · [other historical weeks](06-visual/other-weeks.md)
 
 ## Top integer week scores (preview)
 

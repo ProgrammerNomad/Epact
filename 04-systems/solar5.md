@@ -2,6 +2,8 @@
 
 **Idea:** Choose **W = 5** for a strong small-integer fit to the **tropical year**.
 
+Historical **10-day decades** (Egypt, China xun, French Republican calendar) made the same trade: **year-first**, Moon optional - not proof that 5 or 10 is “natural,” but the same knob as Solar5 ([why-seven.md](../05-synthesis/why-seven.md)).
+
 ## Units
 
 | Unit | Definition |

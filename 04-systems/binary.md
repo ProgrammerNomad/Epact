@@ -2,6 +2,8 @@
 
 **Idea:** Optimize **hierarchical scheduling** with \(W = 2^3 = 8\) days; treat the Moon as **out of band**.
 
+Rome’s **8-day nundinae** (market cycle) is the same design knob: **market and halves**, not lunar quarter ([why-seven.md](../05-synthesis/why-seven.md)).
+
 ## Units
 
 | Unit | Definition |

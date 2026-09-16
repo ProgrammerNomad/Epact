@@ -34,6 +34,8 @@ flowchart TB
 - Only day, month, year (+ rest rule on day index).
 - Week-sized coordination uses **month fractions** or **plain ordinals**.
 
+Historically, cultures also used integer **5, 8, 10**, overlapping counts, or **no single named week** - not because nature issued one number, but because they prioritized year, market, rest, or ritual differently. See [why-seven.md](../05-synthesis/why-seven.md).
+
 ## Overlays (Dual system)
 
 Two calendars simultaneously:

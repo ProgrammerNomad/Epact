@@ -1,4 +1,4 @@
-# Five systems: lunar vs solar priority
+# Six systems: lunar vs solar priority
 
 Subjective placement for **discussion** (0 = low, 1 = high). Not additional computed scores.
 
@@ -14,6 +14,7 @@ quadrantChart
     Lune: [0.92, 0.58]
     Mix: [0.78, 0.55]
     Dual: [0.88, 0.62]
+    Hex: [0.48, 0.78]
     Binary: [0.12, 0.72]
     Solar5: [0.15, 0.88]
 ```
@@ -40,6 +41,7 @@ quadrantChart
     quadrant-4 "Complex and opaque"
     Solar5: [0.35, 0.45]
     Binary: [0.40, 0.70]
+    Hex: [0.45, 0.80]
     Mix: [0.55, 0.85]
     Lune: [0.50, 0.95]
     Dual: [0.75, 0.90]
@@ -52,17 +54,17 @@ Criteria from [comparison.md](../05-synthesis/comparison.md), encoded 0-3:
 ```mermaid
 xychart
     title "Lunar quarter fidelity 0-3"
-    x-axis ["Lune", "Mix", "Dual", "Binary", "Solar5"]
+    x-axis ["Lune", "Mix", "Dual", "Hex", "Binary", "Solar5"]
     y-axis "Score" 0 --> 3
-    bar [3, 2, 3, 0, 0]
+    bar [3, 2, 3, 1, 0, 0]
 ```
 
 ```mermaid
 xychart
     title "Integer circadian lock 0-3"
-    x-axis ["Lune", "Mix", "Dual", "Binary", "Solar5"]
+    x-axis ["Lune", "Mix", "Dual", "Hex", "Binary", "Solar5"]
     y-axis "Score" 0 --> 3
-    bar [1, 3, 3, 3, 3]
+    bar [1, 3, 3, 3, 3, 3]
 ```
 
 | System | Lunar (0-3) | Circadian lock (0-3) |
@@ -70,6 +72,7 @@ xychart
 | Lune | 3 | 1 |
 | Mix | 2 | 3 |
 | Dual | 3 | 3 |
+| Hex | 1 | 3 |
 | Binary | 0 | 3 |
 | Solar5 | 0 | 3 |
 

@@ -24,8 +24,10 @@ If a diagram does not render, use the **ASCII duplicate** under each chart.
 | [month-closure.md](month-closure.md) | Four weeks x W vs one synodic month |
 | [mixed-59-day-timeline.md](mixed-59-day-timeline.md) | Flowchart 7/8 week pattern |
 | [intercalation-flow.md](intercalation-flow.md) | Where epact goes (flowcharts) |
-| [systems-quadrant.md](systems-quadrant.md) | Five systems on lunar vs solar axes |
+| [systems-quadrant.md](systems-quadrant.md) | Six systems on lunar vs solar axes |
 | [choose-a-system.md](choose-a-system.md) | Decision flowchart |
+| [other-weeks.md](other-weeks.md) | Historical week lengths → Epact knobs |
+| [weight-crossover.md](weight-crossover.md) | Alpha sweep; Score_int vs Score_ref |
 | [score-components.md](score-components.md) | Stacked comparison for W=5,6,7,8 |
 | [score-heatmap.md](score-heatmap.md) | Unicode heatmap (Score_int) |
 | [weight-sensitivity.md](../03-search/weight-sensitivity.md) | Alpha sweeps and rank crossovers |

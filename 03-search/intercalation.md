@@ -89,5 +89,6 @@ Accept that phases walk through the civil grid:
 | Binary | 360-day year + 5.242 epact days (or 5-day epact week) |
 | Solar5 | Leap day every 4 years (approx) |
 | Dual | Civil epact rules + independent lunar epact on overlay |
+| Hex | Leap **week** (61 vs 60 weeks/year); 8-year 7×366 + 1×360 mean |
 
 Details in `04-systems/*.md`.

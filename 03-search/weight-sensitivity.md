@@ -53,9 +53,11 @@ L(W) = 0.5\,M + 0.5\,Q_{\mathrm{prox}}, \quad G(W) = 0.5\,Y + 0.5\,D_{\mathrm{no
 
 Higher **Y** and **D** weight lifts **6** further above **7**.
 
-## Open question 3: is W=6 a “missing system”?
+## W=6 as system Hex
 
-There is no separate **Hex** file because **6** already wins or near-wins several weight vectors. A dedicated Hex calendar is an **artifact of choosing lunar-heavy α**, not a hole in the five systems - unless you want a sixth write-up for pedagogy.
+**6** wins or near-wins several weight vectors; the full calendar write-up is [hex.md](../04-systems/hex.md). Gap **6 vs 7 = 0.006** on Score_int remains inside hand-tuned weight noise - not proof that 6 is “the natural week.”
+
+**Chart:** [weight-crossover.md](../06-visual/weight-crossover.md)
 
 ## Day-error vs ratio score
 

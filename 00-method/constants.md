@@ -58,11 +58,9 @@ Spring tides occur near new and full moon; neaps near first and third quarter - 
 | Infradian (sleep duration) | multi-day, individual | Not a universal 7 d clock |
 | Menstrual (approx.) | ~29.5 d | Near synodic month; not a week driver |
 
-## Reference notes (not exhaustive)
+## Reference notes
 
-- Synodic month: Chapront-Touzé & Chapront ephemeris mean (Wikipedia *Lunar month* summarizes 29.530588861 d).
-- Tropical year: Simon et al. 1994 mean longitude model (~365.242190 d); Paris Observatory *Useful constants*.
-- PDG / IAU: tropical year 365.242189 d (2020 equinox-to-equinox); differences at 10⁻⁶ d are below civil calendar needs but above “perfect nest” fantasies.
+Full bibliography and history pointers: [sources.md](sources.md).
 
 ## Working precision
 
